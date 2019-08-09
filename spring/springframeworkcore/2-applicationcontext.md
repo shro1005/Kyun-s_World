@@ -1,10 +1,10 @@
 ---
-description: ApplicationContext의 다양한 기능들에 대해 알아보자
+description: 'ApplicationContext의 다양한 기능들에 대해 알아보자 (Environment, MessageSource)'
 ---
 
-# 스프링 프레임워크 핵심기술 2 - ApplicationContext
+# 스프링 프레임워크 핵심기술 2 - ApplicationContext의 다양한 기능\(1\)
 
-이번에 공부할 내용 스프링 프레임워크의 기본이자 핵심인 `ApplicationContext`입니다. **`ApplicationContext`는 스프링 컨테이너의 한 종류로 스프링 프레임워크의 핵심**입니다.
+이번에 공부 내용 스프링 프레임워크의 기본이자 핵심인 `ApplicationContext`입니다. **`ApplicationContext`는 스프링 컨테이너의 한 종류로 스프링 프레임워크의 핵심**입니다.
 
 ### 스프링 컨테이너란?
 
@@ -28,7 +28,7 @@ public interface ApplicationContext extends EnvironmentCapable, ListableBeanFact
 }
 ```
 
-2종의 BeanFactory 와 나머지 추가 기능들인 **`EnvironmentCapable`, `MessageSource`, `ApplicationEventPublisher`, `ResourcePatternResolcer(ResourceLoader)`** 입니다.
+2종의 BeanFactory 와 나머지 추가 기능들인 **`EnvironmentCapable`, `MessageSource`, `ApplicationEventPublisher`, `ResourcePatternResolver(ResourceLoader)`** 입니다.
 
 이 추가 기능들중 먼저 EnvironmentCapable을 소개하겠습니다. EnvironmetCapable으로 보면 아래와 같은 코드를 가지고 있죠. 아주 간단하죠? getEnvironment 메소드를 통해 Environment 객체를 가져올 수 있습니다.
 
