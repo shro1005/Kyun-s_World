@@ -4,9 +4,7 @@ description: Spring Boot가 Spring MVC와 뭐가 다른가
 
 # 스프링 프레임워크 핵심기술 0 - Spring Boot 와 Spring MVC 차이
 
-이번에 스프링 프레임워 공부를 시작하면서 강의를 하나 듣고 있습니다. 해당 강의에서 강사님이 말씀하시길 최근에 스프링 프레임 크 학습을 할때 Spring Boot로 시작한다고 하더군요. 생각해보니 제가 개인프로젝트를 위해 다른 예제들을 참고할 때도 많은 예제들이 Spring Boot 프로젝트로 진행을 었죠. 
-
- 그래서 스프링 핵심 기술에 앞서 Spring\(Spring MVC\)와 Spring Boot의 차이를 알아보았습니다.
+ 최근에 스프링 프레임워크 학습을 할때 Spring Boot로 시작해라 라는 말을 많이 듣게 되어 스프링 핵심 기술\(core\)에 앞서 Spring\(Spring MVC\)와 Spring Boot의 차이를 알아보았습니다.
 
 모든 Spring 모듈들의 핵심은 의존성 주입과 IoC\(Inversion of Control\)이라고 할 수 있습니다. 이렇게 의존성 주입과 IoC를 통해 소스변경을 최소화 하며 프로그램을 제어할 수 있습니다. 
 
